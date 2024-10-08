@@ -23,7 +23,7 @@ def detect_vehicles(video_path):
     cap = cv2.VideoCapture(video_path)
 
     # Output video settings
-    output_video_path = 'output_tracked3.avi'  # Define output video path
+    output_video_path = 'C:\Users\ayush\CodeElan\output_tracked3.avi'  # Define output video path
     fourcc = cv2.VideoWriter_fourcc(*'XVID')  # Codec for output video
     frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
